@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>งานที่ต้องทำส่ง</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/logo.png">
+</head>
+<body>
+    <div class="header">
+        <img src="image/logo2.png" alt="Logo" class="logo">
+    </div>
+    <div class="schedule-container">
+        <h1>เลือกรายวิชา</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>วิชา</th>
+                    <th>ห้องเรียน</th>
+                    <th>ครูผู้สอน</th>
+                </tr>
+            </thead>
+            <tbody id="schedule-body">
+                <!-- ตารางเรียนจะถูกสร้างขึ้นที่นี่โดย JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <div id="assignment-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="subject-title"></h2>
+            <ul id="assignments-list">
+                <!-- งานจะถูกแสดงที่นี่ -->
+            </ul>
+        </div>
+    </div>
+
+    <div class="explanation">
+        <p>*เวลาเป็นสีเขียวยังสามารถส่งได้ยังไม่เกินเวลาส่ง ส่วนสีแดงคือเกินเวลาส่ง*</p>
+        <p>*จัดทำขึ้นเพื่อความสะดวกในการเช็คงานที่จารย์สั่ง*</p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
