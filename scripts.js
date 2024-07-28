@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             teacher: 'นาย นฐนัธย์ ใยบัว', 
             assignments: [
                 { title: 'ออกกำลังกาย 8 สัปดาห์ สัปดาห์ละ 3 วัน ไม่ต่ำกว่า30นาที(ถ่ายรูป)', assignedDate: '2024-06-24', dueDate: '2024-08-5', dueTime: '13:00' },
+                { title: 'กระโดดเชือก 5 ท่า  ท่าละ 10 ครั้ง', assignedDate: '2024-06-24', dueDate: '2024-07-31', dueTime: '13:00' },
               //  { title: '#', assignedDate: '2024-06-07', dueDate: '2024-06-14', dueTime: '19:00' }
             ] 
         },
